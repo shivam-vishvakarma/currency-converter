@@ -4,7 +4,7 @@ Welcome to Currency Converter! This is a simple tool that allows you to convert 
 
 ## Demo
 
-You can try out the live demo [here](#). 
+You can try out the live demo [here](). 
 
 ## Features
 
@@ -16,7 +16,7 @@ You can try out the live demo [here](#).
 
 To use the currency converter:
 
-1. Open the [live demo](#).
+1. Open the [live demo]().
 2. Select the currency you want to convert from in the "From" dropdown menu.
 3. Select the currency you want to convert to in the "To" dropdown menu.
 4. Enter the amount you want to convert in the input field.
