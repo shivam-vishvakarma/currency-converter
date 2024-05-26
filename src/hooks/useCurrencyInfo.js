@@ -4,11 +4,9 @@ import { useState } from "react";
 function useCurrencyInfo(currency) {
   const [data, setdata] = useState({});
   useEffect(() => {
-    fetch(
-      `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
-    )
+    fetch(`https://api.exchangerate-api.com/v4/latest/${currency}`)
       .then((response) => response.json())
-      .then((data) => setdata(data[currency]));
+      .then((data) => setdata(data["rates"]));
   }, [currency]);
   return data;
 }
